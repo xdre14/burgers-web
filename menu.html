@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/menu/index-menu.css" />
+    <link rel="shortcut icon" href="img/burger-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Menu</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__info">
+        <div class="header__address">Los Angeles Gournadi, 1230 Bariasl</div>
+        <a class="header__mail" href="mailto:freddy.burgers@email.com">freddy.burgers@email.com</a>
+        <div class="header__hours">Hours: 9:00 AM - 5:00 PM</div>
+      </div>
+
+      <nav class="header__nav container">
+        <div class="header__nav-burger">
+          <a href="index.html" class="header__logo-container">
+            <img
+              class="header__logo"
+              src="menu-img/freddy-burgers-icon-header.svg"
+              alt="Burger Logo" />
+          </a>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </div>
+        <div class="header__wrapper">
+          <div class="header__menu">
+            <a href="#" class="header__menu-item">About Us</a>
+            <a href="#" class="header__menu-item">Menu</a>
+            <a href="#" class="header__menu-item">Catering</a>
+            <a href="#" class="header__menu-item">Contacts</a>
+          </div>
+          <div class="header__wrapper-contacts header__contacts-info">
+            <div class="header__address">Los Angeles Gournadi, 1230 Barias</div>
+            <a class="header__mail" href="mailto:freddy.burgers@email.com"
+              >freddy.burgers@email.com</a
+            >
+            <div class="header__hours">Hours: 9:00 AM - 5:00 PM</div>
+          </div>
+          <div class="header__icons">
+            <a class="header__icons-items" href="https://www.facebook.com" target="_blank">
+              <img
+                class="header__icons-items-img"
+                src="menu-img/header-facebook-icon.png"
+                alt="Facebook Logo" />
+            </a>
+            <a class="header__icons-items" href="https://www.instagram.com" target="_blank">
+              <img
+                class="header__icons-items-img"
+                src="menu-img/header-instagram-icon.png"
+                alt="Instagram Logo" />
+            </a>
+            <a class="header__icons-items" href="https://www.youtube.com" target="_blank">
+              <img
+                class="header__icons-items-img"
+                src="menu-img/header-youtube-icon.png"
+                alt="Youtube Logo" />
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header__main container">
+        <div class="header__title-subtitle">
+          <h2 class="header__subtitle">OUR DISHES</h2>
+          <h1 class="header__title">Menu</h1>
+        </div>
+        <div class="header__desc">
+          <p class="header__desc-text">
+            Explore our menu with fresh burgers, side dishes, and drinks. Drop by to taste delicious
+            food, order delivery, or catering!
+          </p>
+        </div>
+      </div>
+
+      <div class="header__background"></div>
+    </header>
+
+    <main class="main">
+      <section class="menu__tab-box container">
+        <div class="tab-box__buttons">
+          <button id="defaultOpen" class="tab-box__button-container tab-box-burger">
+            <img class="tab-box__button-img" src="menu-img/burger-icon.svg" alt="burger" /><span
+              >Burgers</span
+            >
+          </button>
+          <button class="tab-box__button-container tab-box-salad">
+            <img class="tab-box__button-img" src="menu-img/tab-img-salads.svg" alt="burger" /><span
+              >Salads</span
+            >
+          </button>
+          <button class="tab-box__button-container tab-box-drink">
+            <img class="tab-box__button-img" src="menu-img/tab-img-drinks.svg" alt="burger" /><span
+              >Drinks</span
+            >
+          </button>
+        </div>
+
+        <div id="burgers" class="menu__tab-box-content"></div>
+
+        <div id="salads" class="menu__tab-box-content"></div>
+
+        <div id="drinks" class="menu__tab-box-content"></div>
+      </section>
+
+      <button class="button__download-menu">Download Menu</button>
+
+      <section class="main__catering">
+        <div class="main__catering-background"></div>
+        <div class="main__catering-container container">
+          <h3 class="main__catering-title">
+            Hire Freddy Burgers Food Truck <br />
+            <span>Catering!</span>
+          </h3>
+          <p class="main__catering-desc">
+            <span>*</span>Plan a party? Book our catering service. We can ensure that we'll satisfy
+            your guests' tastebuds.
+          </p>
+          <button class="main__catering-button">Book Now</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__background-top"></div>
+      <div class="footer__all-info container">
+        <div class="footer__social-container">
+          <div>
+            <img
+              class="footer__social-logo"
+              src="menu-img/freddy-burgers-icon-footer.svg"
+              alt="icon" />
+          </div>
+          <p class="footer__social-text">
+            We prepare delicious burgers and offer side dishes, salads, and beverages. Find us in
+            the LA streets, order delivery, or throw a party with our catering services!
+          </p>
+          <div class="footer__social-links">
+            <a class="footer__social-link" href="#"
+              ><img
+                class="footer__social-link__img"
+                src="menu-img/footer-facebook-icon.png"
+                alt="facebook"
+            /></a>
+            <a class="footer__social-link" href="#"
+              ><img
+                class="footer__social-link__img"
+                src="menu-img/footer-instagram-icon.png"
+                alt="insta"
+            /></a>
+            <a class="footer__social-link" href="#"
+              ><img
+                class="footer__social-link__img"
+                src="menu-img/footer-youtube-icon.png"
+                alt="youtube"
+            /></a>
+          </div>
+        </div>
+
+        <div class="footer__navigator-container">
+          <h3 class="footer__navigator-title">Navigation</h3>
+          <span class="footer_yellow-line"></span>
+          <a class="footer__navigator-link" href="#">About us</a>
+          <a class="footer__navigator-link" href="#">Menu</a>
+          <a class="footer__navigator-link" href="#">Catering</a>
+          <a class="footer__navigator-link" href="#">Contacts</a>
+        </div>
+
+        <div class="footer__customers-container">
+          <h3 class="footer__customers-title">Customers</h3>
+          <span class="footer_yellow-line"></span>
+          <a class="footer__customers-link" href="#">Our burgers</a>
+          <a class="footer__customers-link" href="#">Services</a>
+          <a class="footer__customers-link" href="#">Our app</a>
+          <a class="footer__customers-link" href="#">Blog</a>
+        </div>
+
+        <form class="footer__subscribe-form" action="https://formspree.io/f/mqkoevaz" method="post">
+          <p class="footer__subscribe-text">Subscribe to get the latest news from us:</p>
+
+          <input
+            class="footer__subscribe-email"
+            type="email"
+            name="email"
+            placeholder="Email*"
+            required />
+
+          <input class="footer__subscribe-btn" type="submit" value="Subscribe" />
+        </form>
+      </div>
+      <div class="footer__grey-line container">
+        <span></span>
+      </div>
+      <div class="footer__bottom container">
+        <p class="footer__bottom-text">©Created by</p>
+        <p class="footer__bottom-text">All rights Reserved</p>
+      </div>
+    </footer>
+    <script src="js/menu-burger-menu.js"></script>
+    <script src="js/tab-box-menu.js"></script>
+    <script src="js/menu-burger-list.js"></script>
+    <script src="js/menu-salads-list.js"></script>
+    <script src="js/menu-drink-list.js"></script>
+  </body>
+</html>

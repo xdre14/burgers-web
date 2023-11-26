@@ -1,0 +1,46 @@
+.our-truck {
+	background-image: url(../about-us-truck-bg.jpg);
+	background-size: cover;
+	background-position: 80%;
+	padding: 90px 24px;
+}
+
+.our-truck__subtitle {
+	font-family: var(--subtitle-font);
+	font-size: 38px;
+	padding-top: 20px;
+}
+
+.our-truck__text-container {
+	padding-top: 50px;
+}
+
+.our-truck__text {
+	font-family: var(--font-family);
+	font-size: 17px;
+	color: var(--font-color-checkboxtext);
+	line-height: 25.5px;
+	padding-top: 25px;
+}
+
+@media (min-width: 786px) {
+	.our-truck__all-info {
+		display: grid;
+		grid-template-columns: 40% 55%;
+		gap: 30px;
+	}
+
+	.our-truck__text-container {
+	padding: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+.our-truck__title {
+font-size: 20px;
+}
+
+.our-truck__subtitle {
+font-size: 56px;
+}
+}

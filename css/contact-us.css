@@ -1,0 +1,153 @@
+.footer__top-background {
+    background-image: url('../img/footer__top-background.svg');
+    background-position: center;
+    width: 100%;
+    height: 16px;
+}
+
+.footer__contact-us {
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #272622;
+    color: white;
+    justify-content: center;
+}
+
+.footer__contacts-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 25.5px;
+}
+
+.footer__offer-to-contact {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.footer__contacts-title {
+    color: white;
+    font-size: 24px;
+    font-family: 'Rubic', sans-serif;
+    font-weight: 600;
+}
+
+.footer__title {
+    font-family: 'Rubic', sans-serif;
+    font-size: 38px;
+    line-height: 41.8px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.footer__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.footer__text-offer {
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 25.5px;
+    margin-top: 25px;
+    color: rgb(173, 173, 173)
+}
+
+.footer__order_form {
+    margin-top: 35px;
+}
+
+.footer__contacts-info {
+    line-height: 25.5px;
+    font-family: 'Rubic', sans-serif;
+    font-size: 17px;
+    color: rgb(173, 173, 173);
+}
+
+.footer__contacts-info-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+
+.footer__address,
+.footer__phone,
+.footer__mail,
+.footer__operating-hours {
+    margin-bottom: 16px;
+}
+
+.footer__contacts-info {
+    margin-top: 5px;
+}
+
+.footer__order_form-btn {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 16px 28px 16px 28px;
+    color: var(--button-text-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: var(--icon-color);
+    text-decoration: solid;
+    border-radius: 25px;
+}
+
+@media (min-width:768px) {
+    .footer__contact-us {
+        flex-direction: row;
+        padding-top: 100px;
+        align-items: center;
+    }
+
+    .footer__contacts-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer__title {
+        font-size: 47px;
+    }
+
+    .footer__contacts-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        min-width: 33.333%;
+        margin: 0;
+    }
+
+    .footer__offer-to-contact {
+        min-width: 66.666%;
+    }
+
+    .footer__contacts-title {
+        font-size: 27px;
+    }
+}
+
+.footer__order_form-btn:hover {
+    background-color: var(--button-text-color);
+    color: var(--animation-button-color);
+    transition: all 1s;
+}
+
+@media (min-width:990px) {
+    .footer__title {
+        font-size: 56px;
+    }
+
+    .footer__contacts-title {
+        font-size: 30px;
+    }
+}

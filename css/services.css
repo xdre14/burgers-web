@@ -1,0 +1,176 @@
+.services {
+    padding: 90px 25px 90px 25px;
+    background-color: rgb(255, 246, 240);
+}
+.text__width {
+    width: 100%;
+}
+.services__title {
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+}
+.services__subtitle {
+    font-size: 38px;
+    margin: 15px 0px 0px 0px;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    vertical-align: baseline;
+    font-weight: 500;
+}
+.services__text-content {
+    font-size: 20px;
+    margin: 25px 0px 40px 0px;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: var(--subtext-color);
+    font-weight: 600;
+    line-height: 30px;
+    vertical-align: baseline;
+    
+}
+.franchising, .catering {
+    background-color: var(--button-text-color);
+    margin: 0 0 35px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(247, 228, 228);
+}
+.franchising__burger, .catering__burger {
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.services__franchising, .services__catering {
+    padding: 31px 27px 24px 27px;
+    margin: 0;
+}
+.franchising__title, .catering__title {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Rubic", sans-serif ;
+    text-align: left;
+    color: var(--subtext-color);
+}
+.franchising__text, .catering__text {
+    font-size: 20px;
+    margin: 25px 0px 0px 0px;
+    padding: 0px;
+    border: 0;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    color: var(--header-phone-color);
+    font-weight: 600;
+    line-height: 30px;
+    vertical-align: baseline;
+}
+.franchising__pic, .catering__pic {
+    font-size: 17px;
+    margin: 0px -50px 0px 0px;
+    padding: 0px 0px 0px 10px;
+    border: 0;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 30px;
+    vertical-align: baseline;
+}
+.franchising__hut, .catering__hut {
+    width: 20px;
+    height: 25px;
+}
+.franchising__punkt, .catering__punkt {
+    display: flex;
+    margin: 0px 0px 30px 0px;
+    padding: 0px 0px 0px 27px;
+    width: 218px;
+}
+.franchising__topic, .catering__topic {
+    font-size: 17px;
+    margin: -41px 0px 35px 0px;
+    padding: 0px;
+    border: 0;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 25px;
+    vertical-align: baseline;
+}
+.franchising__bottom, .catering__bottom {
+    background-color: var(--icon-color);
+    width: 140px;
+    height: 52px;
+    border-radius: 60px;
+    margin: 0;
+}
+.franchising__bottom-text, .catering__bottom-text {
+    padding: 0 0 15px 0;
+    width: 90px;
+    margin: -37px 26px 10px 26px ;
+    color: var(--button-text-color);
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    display: block;
+    position: relative;
+    text-align: left;
+}
+.franchising__bottom:hover {
+    background-color: var(--subtext-color);
+}
+ .catering__bottom:hover {
+    background-color: var(--subtext-color);
+}
+@media (min-width: 768px) {
+    .franchising {
+        display: flex;
+    }
+    .catering {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .franchising__block, .catering__block {
+        display: block;
+        width: 100%;
+    }
+    .franchising__image, .catering__image {
+        width: 100%
+    } 
+    .catering__burger{
+        border-radius:  0 10px 10px 0 ;
+    }
+    
+    .franchising__burger {
+        border-radius: 10px 0 0 10px;
+    }
+    .franchising__burger, .catering__burger {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;}
+
+    
+    .services__franchising, .services__catering {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .catering, .franchising {
+    margin: 30px 40px;}
+}
+@media (min-width: 1200px) {
+    .services {
+        margin: 0;
+        padding: 0 0 90px 0;
+    }
+    .services__title {
+        padding: 90px 20px 15px 20px;
+    }
+    .services__text-content {
+        padding: 25px 10px 40px 10px;
+    }
+}

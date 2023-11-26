@@ -1,0 +1,99 @@
+.team {
+    background-image: url(../about-us-team-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team__section {
+    padding: 90px 30px;
+}
+.team__slogan {
+    margin-top: 20px;
+    font-family: var(--subtitle-font);
+    font-size: 38px;
+    font-weight: 700;  
+}
+.team__info {
+    margin-top: 25px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 700; 
+    color: var(--font-color-checkboxtext);
+    line-height: 30px;
+}
+.team__detail-info {
+    margin-top: 20px;
+    color: var(--request-inp-text-color);
+    font-family: var(--font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+}
+.swiper-wrapper {
+    margin-top: 30px;
+}
+.team__name {
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--subtext-color);
+}
+.team__proffesion {
+    margin-top: 25px;
+    font-family: var(--font-family);
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  background-color: var(--icon-color);
+  border-radius: 50%;
+  width: 24px !important;
+  height: 20px !important;
+  color: var(--footer-carousel-button-color) !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  text-align: center;
+  padding-top: 7px;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  filter: brightness(90%);
+}
+.team__foto {
+    border-radius: 5px;
+}
+.lock {
+    overflow: hidden;
+}
+@media (min-width: 770px) {
+    .team__title {
+        font-size: 18px;
+    }
+    .team__slogan {
+        font-size: 47px;
+    }
+    .team__info {
+        font-size: 20px;
+    }
+}
+@media (min-width: 992px) {
+    .team__section {
+        display: flex;
+    }
+    .team__txt {
+        width: 40%;
+        padding-right: 15px;
+    }
+    .team__carousel {
+        align-items:flex-end;
+        width: 60%;
+    }
+    .team__title {
+        font-size: 20px;
+    }
+    .team__slogan {
+        font-size: 56px;
+    }
+}

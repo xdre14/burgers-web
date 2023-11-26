@@ -1,0 +1,49 @@
+.food-excellence {
+background-image: url(../about-us-food-block-bg.jpg);
+padding: 90px 0;
+background-position-x: 70%;
+background-size: cover;
+}
+
+.food__bg {
+background-color: rgba(20, 10, 10, 0.7);
+height: 100%;
+width: 90%;
+margin: 0 auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: var(--subtitle-header-color);
+padding: 31px 27px;
+}
+
+.food__subtitle {
+font-family: var(--subtitle-font);
+font-size: 30px;
+padding-top: 20px;
+}
+
+.food__appeal {
+font-family: var(--font-family);
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+color: var(--appeal-text-color);
+padding-top: 25px;
+}
+
+.food__first-text,
+.food__second-text{
+font-family: var(--font-family);
+font-size: 17px;
+color: var(--optional-text-color);
+padding-top: 25px;
+}
+
+@media (min-width: 786px) {
+.food__bg {
+max-width: 35%;
+margin-left: 32px;
+}
+}

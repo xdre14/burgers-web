@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/*  font-family: 'Permanent Marker', cursive;  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+/*  font-family: 'Lato', sans-serif;   */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700;800&display=swap');
+/* font-family: 'Rubik', sans-serif;  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--title-color);
+}
+
+h3 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+}
+
+:root {
+  --title-color: rgb(231, 49, 35);
+  --text-color: rgb(103, 103, 103);
+  --subtext-color: rgb(40, 38, 35);
+  --footer-background-color: rgb(39, 38, 34);
+  --button-text-color: rgb(255, 255, 255);
+  --icon-color: rgb(251, 190, 54);
+  --animation-button-color: rgb(0, 0, 0);
+  --form-background-color: rgb(251 247 237);
+  --font-family: 'Lato', sans-serif;
+  --subtitle-font: 'Rubik', sans-serif;
+  --subtitle-color: rgb(105, 105, 105);
+  --subtitle-header-color: #ffffff;
+  --header-phone-color: #282623;
+  --background-header-color: #efad18;
+  --background-header-banner: #fcbe37;
+  --header-menu-item-color: #4f5047;
+  --email-footer-background: rgba(255, 255, 255, 0.11);
+  --footer-carousel-button-color: rgba(0, 0, 0, 0.5);
+  --font-color-checkboxtext: rgb(69, 69, 69);
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
